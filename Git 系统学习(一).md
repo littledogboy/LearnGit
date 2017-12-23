@@ -9,9 +9,27 @@
 查看简单状态: `git status -s`
 ![状态概览](https://ws2.sinaimg.cn/large/006tNc79gy1fmoj0bofpaj318w0a8q5j.jpg)
 
-### untracted
+### 状态之间的切换
 
 仓库中, 新创建的文件处于 `untracked` 状态. 使用 `git add <file>` 或者 `git add *`, 追踪文件,并添加到 stage(暂存区).
+
+`git commit -m "提交内容"`
+
+## diff
+
+查看已暂存和未暂存的修改.
+
+要查看工作区修改, 没有 `add` 的修改. `git diff`
+
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1fmqowj71uwj31dg0uwdm2.jpg)
+
+**注意:** git diff 本身只显示尚未暂存的改动，而不是自上次提交以来所做的所有改动。所以有时候你一下子暂存了所有更新过的文件后，运行git diff后却什么也没有，就是这个原因。
+
+查看已 `add`,没有 `commit` 的修改. `git diff --staged`
+
+
+
+
 
 ## 忽略文件 
 
