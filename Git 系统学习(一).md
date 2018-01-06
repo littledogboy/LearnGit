@@ -27,8 +27,16 @@
 
 查看已 `add`,没有 `commit` 的修改. `git diff --staged`
 
+可以选用一款合适的 diff 比较工具. [diff-tools-mac](https://www.git-tower.com/blog/diff-tools-mac/)
 
+### Beyond Compare 下载和破解
 
+[Beyond Compare 下载链接](TODO)  
+[Beyond Compare 破解](TODO)
+
+### Beyond Compare Line Tool 使用
+
+[Git 配置](http://www.scootersoftware.com/support.php?zz=kb_vcs_osx#git)
 
 
 ## 忽略文件 
