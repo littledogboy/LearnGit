@@ -15,7 +15,7 @@
 
 仓库中, 新创建的文件处于 `untracked` 状态. 使用 `git add <file>` 或者 `git add *`, 追踪文件,并添加到 stage(暂存区).
 
-#### commit
+#### commit 
 
 `git commit -m "提交内容"`  将提交信息与命令放在同一行
 
@@ -23,6 +23,13 @@
 
 `git commit -a` 跳过使用暂存区域,省略掉 git add, 直接提交
 
+#### rm  
+
+要从 Git 中移除某个文件，就必须要从已跟踪文件清单中移除(确切地说，是从暂存区域移除)，然后提交。
+
+如果只是简单地从工作目录中手工删除文件，运行 git status 时会看到 “Changes not staged for commit”.
+
+这时还需要执行: git rm 文件名 
 
 ## diff
 
