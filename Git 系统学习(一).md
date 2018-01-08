@@ -11,9 +11,18 @@
 
 ### 状态之间的切换
 
+#### add
+
 仓库中, 新创建的文件处于 `untracked` 状态. 使用 `git add <file>` 或者 `git add *`, 追踪文件,并添加到 stage(暂存区).
 
-`git commit -m "提交内容"`
+#### commit
+
+`git commit -m "提交内容"`  将提交信息与命令放在同一行
+
+`git commit` 启动文本编辑器输入本次提交的说明
+
+`git commit -a` 跳过使用暂存区域,省略掉 git add, 直接提交
+
 
 ## diff
 
