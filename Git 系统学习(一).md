@@ -13,7 +13,7 @@
 
 #### add
 
-仓库中, 新创建的文件处于 `untracked` 状态. 使用 `git add <file>` 或者 `git add *`, 追踪文件,并添加到 stage(暂存区).
+仓库中, 新创建的文件处于 `untracked` 状态. 使用 `git add <file>` 或者 `git add .`, 追踪文件,并添加到 stage(暂存区).
 
 #### commit 
 
@@ -21,9 +21,9 @@
 
 `git commit` 启动文本编辑器输入本次提交的说明
 
-`git commit -a` 跳过使用暂存区域,省略掉 git add, 直接提交
+`git commit -a` 把所有**已经跟踪过的文件**暂存起 来一并提交  
 
-注意: commit -a 直接提交,如果文件为图片的话不适用,仍然需要 先 add 放入暂存区.
+**注意:** `commit -a` 如果没有追踪过,比如新添加的文件,则不会被提交.
 
 #### rm  
 
