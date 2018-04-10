@@ -10,6 +10,9 @@
 
 ## 2. 已经提交 没有 push
 
-git reset --hard HEAD 回退到
+git reset --hard HEAD 回退到上上一个提交状态
 
 ## 3. 已经提交 已经 push
+
+
+测试手动 git merge
