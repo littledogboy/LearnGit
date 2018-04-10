@@ -66,6 +66,8 @@ git rm命令后面可以列出文件或者目录的名字.
 
 [Git 配置](http://www.scootersoftware.com/support.php?zz=kb_vcs_osx#git)
 
+使用： `git difftool 文件名`
+
 
 ## 忽略文件 
 
